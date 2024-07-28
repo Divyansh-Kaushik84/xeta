@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB1730962C551E1F0057BF7F /* xetaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1730952C551E1F0057BF7F /* xetaApp.swift */; };
+		BB1730982C551E1F0057BF7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1730972C551E1F0057BF7F /* ContentView.swift */; };
+		BB17309A2C551E210057BF7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB1730992C551E210057BF7F /* Assets.xcassets */; };
+		BB17309D2C551E210057BF7F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB17309C2C551E210057BF7F /* Preview Assets.xcassets */; };
+		BB1730A42C551E730057BF7F /* SecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1730A32C551E730057BF7F /* SecondScreen.swift */; };
+		BB1730A62C5526960057BF7F /* Goals.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1730A52C5526960057BF7F /* Goals.swift */; };
+		BB1730A82C552B430057BF7F /* Explore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1730A72C552B430057BF7F /* Explore.swift */; };
+		BB1730AA2C552BBC0057BF7F /* SetGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1730A92C552BBC0057BF7F /* SetGoal.swift */; };
+		BB1730AC2C5587A40057BF7F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1730AB2C5587A40057BF7F /* Model.swift */; };
+		BB1730AE2C5587BD0057BF7F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1730AD2C5587BD0057BF7F /* NetworkManager.swift */; };
+		BB1730B12C55A90B0057BF7F /* FoodInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1730B02C55A90B0057BF7F /* FoodInfoView.swift */; };
+		BB1730B32C55A9330057BF7F /* NutritionFactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1730B22C55A9330057BF7F /* NutritionFactsView.swift */; };
+		BB1730B52C55A9490057BF7F /* SimilarItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1730B42C55A9490057BF7F /* SimilarItemsView.swift */; };
+		BB1730B72C568E7E0057BF7F /* Facts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1730B62C568E7E0057BF7F /* Facts.swift */; };
+		BB1730B92C56B27F0057BF7F /* mutton_biryani.png in Resources */ = {isa = PBXBuildFile; fileRef = BB1730B82C56B27F0057BF7F /* mutton_biryani.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB1730922C551E1F0057BF7F /* xeta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xeta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB1730952C551E1F0057BF7F /* xetaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xetaApp.swift; sourceTree = "<group>"; };
+		BB1730972C551E1F0057BF7F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BB1730992C551E210057BF7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB17309C2C551E210057BF7F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BB1730A32C551E730057BF7F /* SecondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreen.swift; sourceTree = "<group>"; };
+		BB1730A52C5526960057BF7F /* Goals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goals.swift; sourceTree = "<group>"; };
+		BB1730A72C552B430057BF7F /* Explore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Explore.swift; sourceTree = "<group>"; };
+		BB1730A92C552BBC0057BF7F /* SetGoal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGoal.swift; sourceTree = "<group>"; };
+		BB1730AB2C5587A40057BF7F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		BB1730AD2C5587BD0057BF7F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		BB1730AF2C558AAD0057BF7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BB1730B02C55A90B0057BF7F /* FoodInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodInfoView.swift; sourceTree = "<group>"; };
+		BB1730B22C55A9330057BF7F /* NutritionFactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionFactsView.swift; sourceTree = "<group>"; };
+		BB1730B42C55A9490057BF7F /* SimilarItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimilarItemsView.swift; sourceTree = "<group>"; };
+		BB1730B62C568E7E0057BF7F /* Facts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facts.swift; sourceTree = "<group>"; };
+		BB1730B82C56B27F0057BF7F /* mutton_biryani.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mutton_biryani.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB17308F2C551E1F0057BF7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB1730892C551E1F0057BF7F = {
+			isa = PBXGroup;
+			children = (
+				BB1730942C551E1F0057BF7F /* xeta */,
+				BB1730932C551E1F0057BF7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB1730932C551E1F0057BF7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB1730922C551E1F0057BF7F /* xeta.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB1730942C551E1F0057BF7F /* xeta */ = {
+			isa = PBXGroup;
+			children = (
+				BB1730AF2C558AAD0057BF7F /* Info.plist */,
+				BB1730B02C55A90B0057BF7F /* FoodInfoView.swift */,
+				BB1730B22C55A9330057BF7F /* NutritionFactsView.swift */,
+				BB1730B62C568E7E0057BF7F /* Facts.swift */,
+				BB1730B42C55A9490057BF7F /* SimilarItemsView.swift */,
+				BB1730952C551E1F0057BF7F /* xetaApp.swift */,
+				BB1730972C551E1F0057BF7F /* ContentView.swift */,
+				BB1730A92C552BBC0057BF7F /* SetGoal.swift */,
+				BB1730A72C552B430057BF7F /* Explore.swift */,
+				BB1730A52C5526960057BF7F /* Goals.swift */,
+				BB1730A32C551E730057BF7F /* SecondScreen.swift */,
+				BB1730AB2C5587A40057BF7F /* Model.swift */,
+				BB1730AD2C5587BD0057BF7F /* NetworkManager.swift */,
+				BB1730992C551E210057BF7F /* Assets.xcassets */,
+				BB17309B2C551E210057BF7F /* Preview Content */,
+			);
+			path = xeta;
+			sourceTree = "<group>";
+		};
+		BB17309B2C551E210057BF7F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BB1730B82C56B27F0057BF7F /* mutton_biryani.png */,
+				BB17309C2C551E210057BF7F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB1730912C551E1F0057BF7F /* xeta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB1730A02C551E210057BF7F /* Build configuration list for PBXNativeTarget "xeta" */;
+			buildPhases = (
+				BB17308E2C551E1F0057BF7F /* Sources */,
+				BB17308F2C551E1F0057BF7F /* Frameworks */,
+				BB1730902C551E1F0057BF7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = xeta;
+			productName = xeta;
+			productReference = BB1730922C551E1F0057BF7F /* xeta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB17308A2C551E1F0057BF7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					BB1730912C551E1F0057BF7F = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = BB17308D2C551E1F0057BF7F /* Build configuration list for PBXProject "xeta" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB1730892C551E1F0057BF7F;
+			productRefGroup = BB1730932C551E1F0057BF7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB1730912C551E1F0057BF7F /* xeta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB1730902C551E1F0057BF7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB17309D2C551E210057BF7F /* Preview Assets.xcassets in Resources */,
+				BB1730B92C56B27F0057BF7F /* mutton_biryani.png in Resources */,
+				BB17309A2C551E210057BF7F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB17308E2C551E1F0057BF7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1730B52C55A9490057BF7F /* SimilarItemsView.swift in Sources */,
+				BB1730AC2C5587A40057BF7F /* Model.swift in Sources */,
+				BB1730B12C55A90B0057BF7F /* FoodInfoView.swift in Sources */,
+				BB1730A62C5526960057BF7F /* Goals.swift in Sources */,
+				BB1730982C551E1F0057BF7F /* ContentView.swift in Sources */,
+				BB1730A82C552B430057BF7F /* Explore.swift in Sources */,
+				BB1730B32C55A9330057BF7F /* NutritionFactsView.swift in Sources */,
+				BB1730B72C568E7E0057BF7F /* Facts.swift in Sources */,
+				BB1730AE2C5587BD0057BF7F /* NetworkManager.swift in Sources */,
+				BB1730AA2C552BBC0057BF7F /* SetGoal.swift in Sources */,
+				BB1730962C551E1F0057BF7F /* xetaApp.swift in Sources */,
+				BB1730A42C551E730057BF7F /* SecondScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BB17309E2C551E210057BF7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB17309F2C551E210057BF7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB1730A12C551E210057BF7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"xeta/Preview Content\"";
+				DEVELOPMENT_TEAM = 7HM2K8HWPV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = xeta/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.galgotias.xeta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB1730A22C551E210057BF7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"xeta/Preview Content\"";
+				DEVELOPMENT_TEAM = 7HM2K8HWPV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = xeta/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.galgotias.xeta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB17308D2C551E1F0057BF7F /* Build configuration list for PBXProject "xeta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB17309E2C551E210057BF7F /* Debug */,
+				BB17309F2C551E210057BF7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB1730A02C551E210057BF7F /* Build configuration list for PBXNativeTarget "xeta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB1730A12C551E210057BF7F /* Debug */,
+				BB1730A22C551E210057BF7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB17308A2C551E1F0057BF7F /* Project object */;
+}
